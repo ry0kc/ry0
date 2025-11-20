@@ -1,0 +1,31 @@
+baseURL = 'https://ry0.org/'
+languageCode = 'en-us'
+title = 'Landing Site'
+
+theme = 'PaperMod'
+
+
+# Basic PaperMod configuration example
+[pagination]
+	pagerSize = 10
+
+[params]
+	# Replace with your name
+	author = "Your Name"
+
+	# Short site description shown in meta tags and some theme areas
+	description = "A short description of your site."
+
+	# Which sections to show on the homepage (common: "post")
+	mainSections = ["post"]
+
+	# Show estimated reading time for posts
+	showReadingTime = true
+
+	# Date format used by the theme (adjust to your preference)
+	dateFormat = "Jan 2, 2006"
+
+[outputs]
+	home = ["HTML", "RSS"]
+
+# End of basic PaperMod config example
