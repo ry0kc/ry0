@@ -1,0 +1,27 @@
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Hugo cache and generated files
+/resources/
+/resources/_gen_
+
+# Node modules
+node_modules/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build output (if you ever build locally into /public)
+/public/
+
+# Optional editors
+*.swp
+*.swo
